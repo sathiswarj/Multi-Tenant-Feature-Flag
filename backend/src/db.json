@@ -1,0 +1,93 @@
+{
+  "organizations": [
+    {
+      "id": "org-1",
+      "name": "Acme Corporation",
+      "createdAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "org-2",
+      "name": "Stark Industries",
+      "createdAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "org-3",
+      "name": "Wayne Enterprises",
+      "createdAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "org-yhin4dbyn",
+      "name": "Name",
+      "createdAt": "2026-05-09T10:22:43.864Z"
+    },
+    {
+      "id": "org-hxjqt57fx",
+      "name": "new",
+      "createdAt": "2026-05-09T10:32:39.165Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "email": "admin@acme.com",
+      "password": "$2b$10$1SFx83Xa20i7IMUdfI9pXumWh2CgXFQD2jvy/LbbDtH9WgORr.khW",
+      "orgId": "org-1",
+      "role": "org_admin",
+      "createdAt": "2026-05-09T10:20:12.993Z"
+    },
+    {
+      "id": "user-gk5vnw882",
+      "email": "your@gmail.com",
+      "password": "$2b$10$KJb2ossWSWLUmiFm6l29OuvJkbZ3Ck7WeDmCfscCQJ/F8FOm1Hnme",
+      "orgId": "org-hxjqt57fx",
+      "role": "org_admin",
+      "createdAt": "2026-05-09T10:34:04.256Z"
+    }
+  ],
+  "featureFlags": [
+    {
+      "id": "flag-1",
+      "key": "new-dashboard-ui",
+      "name": "New Dashboard UI",
+      "description": "Enables the modern grid-based dashboard layout.",
+      "isEnabled": true,
+      "orgId": "org-1",
+      "updatedBy": "system",
+      "createdAt": "2026-05-09T10:20:12.924Z",
+      "updatedAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "flag-2",
+      "key": "beta-payment-gateway",
+      "name": "Beta Payment Gateway",
+      "description": "Enables Stripe 3D Secure v2 elements.",
+      "isEnabled": false,
+      "orgId": "org-1",
+      "updatedBy": "system",
+      "createdAt": "2026-05-09T10:20:12.924Z",
+      "updatedAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "flag-3",
+      "key": "arc-reactor-mode",
+      "name": "Arc Reactor Mode",
+      "description": "Powers Stark Industries dashboard with clean energy.",
+      "isEnabled": true,
+      "orgId": "org-2",
+      "updatedBy": "system",
+      "createdAt": "2026-05-09T10:20:12.924Z",
+      "updatedAt": "2026-05-09T10:20:12.924Z"
+    },
+    {
+      "id": "flag-y3j9x0g00",
+      "key": "beta-asd",
+      "name": "Beta",
+      "description": "",
+      "isEnabled": true,
+      "orgId": "org-hxjqt57fx",
+      "updatedBy": "your@gmail.com",
+      "createdAt": "2026-05-09T10:34:27.978Z",
+      "updatedAt": "2026-05-09T10:34:31.507Z"
+    }
+  ]
+}
